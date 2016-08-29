@@ -2,20 +2,57 @@
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+
 
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   // box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #cccccc;
+  background: #e6e6e6;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 15px;
   padding: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  h1 {
+    font-family: 'Raleway';
+  }
+
+  p {
+    font-family: 'Raleway';
+  }
 }
+
+.intro {
+  font-family: 'Raleway';
+  text-align: center;
+  
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+  h1 {
+    color: orange;
+    font-weight: 200;
+  }
+
+  h4 {
+    color: yellow;
+    font-weight: 100;
+  }
+}
+
 
 .booyah-box2 {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -40,7 +77,8 @@ body {
 }
 
 .code2{
-  font-family: 'source_code_promedium';
+  font-family: 'Raleway';
+  font-weight: 100;
   color: yellow;
 }
 
@@ -61,28 +99,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-inverse .navbar-brand {
-  // padding-top: 30px;
-  padding-left: 45px;
-  // color: #0080ff;
-  color: orange;
-  // font-family: 'Montserrat', sans-serif;
-  font-family: 'source_code_promedium';
+  padding-top: 0px;
+  padding-left: 0px;
+  // font-family: 'source_code_promedium';
   // font-family: 'Droid Serif', serif;
-  font-size: 30px;    
+  // font-size: 30px;    
 }
 
-.navbar-header{
+.logo {
+  max-height: 65%;
+  display: block;
+  margin: left;
+  max-width: 65%;
+  padding-left: 25px;
+
+
+}
+
+.navbar-header {
   padding-top: 20px;
   min-height: 90px; 
+  text-align: left;
 }
 
 
 
-.img_size{
-  max-width: 100%;
-  display: block;
-  margin: auto;
-}
+
 
 
 

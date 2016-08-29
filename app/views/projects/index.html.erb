@@ -1,16 +1,77 @@
-
-<br />
-<% @projects.each do |project| %>
-<div class="booyah-box col-xs-10 col-xs-offset-1">
-  <h1 class="allign-left"><%= link_to project.name, project.address, :target => "_blank"  %></h1>
-  <br />
-  <p><%= project.description %></p>
+<br>
+<div class="booyah-box col-xs-10 col-xs-offset-1">  
+  <h1 class="allign-left"><%= link_to "Classy", "https://classy-cr.herokuapp.com/", :target => "_blank"  %></h1>
+  <div class="booyah-box img_size">
+  <%= link_to image_tag('classySS.png'), "https://classy-cr.herokuapp.com/", :target => "_blank" %>
+  </div>
+  <br>
+  <p>Classy is a two-sided eLearning platform built with Ruby on Rails, similar to Udemy, that manages student course enrollments as well as instructor course creation.</p> 
+  <p>Once a user creates an account they can either view and enroll in courses, or develop new courses as an instructor. Courses are split up into sections, each of which can hold multiple video lessons. Instructors set their own price for their courses and the application manages student payments for them using Stripe.</p>
   <br />
   <div class="pull-right">
-  <%= link_to 'Go to App', project.address, class: "btn btn-warning", :target => "_blank" %>
+  <%= link_to 'Go to App', "https://classy-cr.herokuapp.com/", class: "btn btn-warning", :target => "_blank" %>
   </div>
 </div>
-<% end %>
+<br />
+
+<div class="booyah-box col-xs-10 col-xs-offset-1">  
+  <h1 class="allign-left"><%= link_to "Blog App", "https://blog-chris-ross.herokuapp.com/", :target => "_blank"  %></h1>
+  <div class="booyah-box img_size">
+  <%= link_to image_tag('blogSS.png'), "https://blog-chris-ross.herokuapp.com/", :target => "_blank" %>
+  </div>
+  <br>
+  <p>I built this blog application using Ruby on Rails. Anyone visiting the site can view my blog posts and add comments. As the administrator, I can log in and add, edit, and delete posts, as well as remove comments.</p>
+  <br />
+  <div class="pull-right">
+  <%= link_to 'Go to App', "https://blog-chris-ross.herokuapp.com/", class: "btn btn-warning", :target => "_blank" %>
+  </div>
+</div>
+<br />
+
+<div class="booyah-box col-xs-10 col-xs-offset-1">  
+  <h1 class="allign-left"><%= link_to "Harvester", "https://harvester-cr.herokuapp.com/", :target => "_blank"  %></h1>
+  <div class="booyah-box img_size">
+  <%= link_to image_tag('harvesterSS.png'), "https://harvester-cr.herokuapp.com/", :target => "_blank" %>
+  </div>
+  <br>
+  <p>Harvester is a Ruby on Rails web scraping application that grabs the current top news stories from three world news sites, Bloomberg, BBC News, and Straits Times.</p>
+  <br />
+  <div class="pull-right">
+  <%= link_to 'Go to App', "https://harvester-cr.herokuapp.com/", class: "btn btn-warning", :target => "_blank" %>
+  </div>
+</div>
+<br />
+
+<div class="booyah-box col-xs-10 col-xs-offset-1">  
+  <h1 class="allign-left"><%= link_to "Nomster", "https://nomster-christopher-ross.herokuapp.com/", :target => "_blank"  %></h1>
+  <div class="booyah-box img_size">
+  <%= link_to image_tag('nomsterSS.png'), "https://nomster-christopher-ross.herokuapp.com/", :target => "_blank" %>
+  </div>
+  <br>
+  <p>A Ruby on Rails web application in the spirit of Yelp developed for the Firehose Project. Anyone can easily view all locations, reviews, ratings and images. In order to add new locations or post reviews, users must create an account. All users with accounts also have their own profile page showing their review stats.</p>
+  <br />
+  <div class="pull-right">
+  <%= link_to 'Go to App', "https://nomster-christopher-ross.herokuapp.com/", class: "btn btn-warning", :target => "_blank" %>
+  </div>
+</div>
+<br />
+
+<div class="booyah-box col-xs-10 col-xs-offset-1">  
+  <h1 class="allign-left"><%= link_to "Splurty", "https://splurty-chris-ross.herokuapp.com/", :target => "_blank"  %></h1>
+  <div class="booyah-box img_size">
+  <%= link_to image_tag('splurtySS.png'), "https://splurty-chris-ross.herokuapp.com/", :target => "_blank" %>
+  </div>
+  <br>
+  <p>Splurty is web application developed using Ruby on Rails that randomly displays user submitted quotes. A user can easily add their own sayings to the page and see the product of their brilliance displayed for the world to see. Splurty was developed for the Firehose Project, which rocks!</p>
+  <br />
+  <div class="pull-right">
+  <%= link_to 'Go to App', "https://splurty-chris-ross.herokuapp.com/", :target => "_blank" %>
+  </div>
+</div>
+<br />
+
+
+
 
 
 
